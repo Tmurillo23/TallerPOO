@@ -17,8 +17,3 @@ class PuntoCartesiano:
         distancia = sqrt((self.coordenada_x - coordenada_x1) ** 2 - (self.coordenada_y - coordenada_y1) ** 2)
         return distancia
 
-
-punto_1: PuntoCartesiano = PuntoCartesiano(5, 9)
-punto_2 = PuntoCartesiano = PuntoCartesiano(8, 7)
-punto_1.mostrar()
-print(punto_1.calcular_distancia(punto_2.coordenada_x, punto_2.coordenada_y))
