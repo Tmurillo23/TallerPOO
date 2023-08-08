@@ -17,8 +17,9 @@ class CuentaBancaria:
         return cantidad
 
     def aplicar_cuota_de_manejo(self):
-        self.saldo = (self.saldo) - (self.saldo*0.02)
+        self.saldo = self.saldo - (self.saldo * 0.02)
 
     def mostrar_detalle(self):
+        print(f" Numero de cuenta: {self.numero_de_cuenta} \n Titular : {self.titular} \n Saldo: {self.saldo}")
 
 
